@@ -1,4 +1,4 @@
-@demy
+
 Feature: US0101 Quality Demy
 
   Scenario: Kullanici basarili bir sekilde giris yapabilmeli
