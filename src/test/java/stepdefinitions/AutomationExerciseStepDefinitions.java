@@ -36,4 +36,10 @@ public class AutomationExerciseStepDefinitions {
         Assert.assertTrue(page.logoutButonu.isDisplayed());
     }
 
+    @Then("Kullanici sayfaya giris yapilamadigini test eder")
+    public void kullanici_sayfaya_giris_yapilamadigini_test_eder() {
+       Assert.assertTrue(page.loginButonu.isDisplayed());
+    }
+
+
 }

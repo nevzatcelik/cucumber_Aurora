@@ -1,25 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="29.211">
-    <testcase classname="US1111 AutomationLogin Testi" name="Kullanici Basarili bir sekilde giris yapabilmeli" time="17.252">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="33.954">
+    <testcase classname="US1112 Amazon arama testi" name="Kullanici arama kutusunda birden fazla arama yapabilmeli" time="6.419">
         <system-out>
-            <![CDATA[Given Kullanici "myAutomationUrl" sayfasina gider...........................passed
-Then Kullanici Signup butonuna tiklar.......................................passed
-Then Kullanici mail bolumune "mail" gonderir................................passed
-Then Kullanici password bolumune "password" gonderir........................passed
-Then Kullanici login Butonuna tiklar........................................passed
-Then Kullanici Automation sayfasina giris yaptigini test eder...............passed
-And Sayfayi kapatir.........................................................passed
+            <![CDATA[Given Kullanici "amazonUrl" sayfasina gider.................................passed
+Then Kullanici amazon arama kutusunda "elma" arama yapar....................passed
+Then Kullanici arattigi "elma" test eder....................................passed
+Then Sayfayi kapatir........................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1112  OTOMASTON TESTI" name="kullanici tekrar giris yapabilmeli" time="11.787">
+    <testcase classname="US1112 Amazon arama testi" name="Kullanici arama kutusunda birden fazla arama yapabilmeli 2" time="4.593">
         <system-out>
-            <![CDATA[Given Kullanici "myAutomationUrl" sayfasina gider...........................passed
-Then Kullanici Signup butonuna tiklar.......................................passed
-Then Kullanici mail bolumune "mail" gonderir................................passed
-Then Kullanici password bolumune "password" gonderir........................passed
-Then Kullanici login Butonuna tiklar........................................passed
+            <![CDATA[Given Kullanici "amazonUrl" sayfasina gider.................................passed
+Then Kullanici amazon arama kutusunda "muz" arama yapar.....................passed
+Then Kullanici arattigi "muz" test eder.....................................passed
+Then Sayfayi kapatir........................................................passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="US1112 Amazon arama testi" name="Kullanici arama kutusunda birden fazla arama yapabilmeli 3" time="5.613">
+        <system-out>
+            <![CDATA[Given Kullanici "amazonUrl" sayfasina gider.................................passed
+Then Kullanici amazon arama kutusunda "ayva" arama yapar....................passed
+Then Kullanici arattigi "ayva" test eder....................................passed
+Then Sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1112 Amazon arama testi" name="Kullanici arama kutusunda birden fazla arama yapabilmeli 4" time="17.156">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='twotabsearchtextbox']&quot;}&#10;  (Session info: chrome=108.0.5359.73)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b70d7db052d4c8d9c322972fa2189e88, findElement {using=xpath, value=//input[@id='twotabsearchtextbox']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ahmet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55432/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b70d7db052d4c8d9c322972fa2189e88" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Kullanici "amazonUrl" sayfasina gider.................................passed
+Then Kullanici amazon arama kutusunda "karpuz" arama yapar..................failed
+Then Kullanici arattigi "karpuz" test eder..................................skipped
+Then Sayfayi kapatir........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='twotabsearchtextbox']"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b70d7db052d4c8d9c322972fa2189e88, findElement {using=xpath, value=//input[@id='twotabsearchtextbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ahmet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55432/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b70d7db052d4c8d9c322972fa2189e88
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
+	at stepdefinitions.AmazonStepDefinitions.kullanici_amazon_arama_kutusunda_arama_yapar(AmazonStepDefinitions.java:14)
+	at ✽.Kullanici amazon arama kutusunda "karpuz" arama yapar(file:///C:/Users/ahmet/IdeaProjects/cucumber_aurora/src/test/resources/features/US1112_AmazonAramaTesti.feature:5)
+]]>
+        </failure>
     </testcase>
 </testsuite>
