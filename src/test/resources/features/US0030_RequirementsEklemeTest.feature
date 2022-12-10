@@ -1,4 +1,4 @@
-@US
+
 Feature: US 0030 Requirements Ekleme Testi
 
   Scenario: Requirements should be addable with the "+" button

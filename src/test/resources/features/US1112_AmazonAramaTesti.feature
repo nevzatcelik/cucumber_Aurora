@@ -1,5 +1,5 @@
 Feature: US1112 Amazon arama testi
-@demy
+
  Scenario Outline:  Kullanici arama kutusunda birden fazla arama yapabilmeli
     Given Kullanici "amazonUrl" sayfasina gider
     Then  Kullanici amazon arama kutusunda "<istenenKelimeleri>" arama yapar

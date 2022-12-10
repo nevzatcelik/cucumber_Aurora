@@ -15,3 +15,4 @@ Feature: US 1113 Automation Negatif Giris Testi
       | automationNegatifMail2 | automationPassword2 |
       | automationNegatifMail3 | automationPassword3 |
       | automationNegatifMail4 | automationPassword4 |
+
