@@ -1,4 +1,4 @@
-@deneme1
+
 Feature: US1112 Amazon arama testi
 
  Scenario Outline:  Kullanici arama kutusunda birden fazla arama yapabilmeli
