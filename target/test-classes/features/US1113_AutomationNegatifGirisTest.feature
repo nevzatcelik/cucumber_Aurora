@@ -1,5 +1,6 @@
+
 Feature: US 1113 Automation Negatif Giris Testi
-@nevzat
+
   Scenario Outline: Kullanici negatif bilgiler gonderdiginde giris yapilamaz
 
     Given Kullanici "myAutomationUrl" sayfasina gider
