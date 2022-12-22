@@ -1,4 +1,4 @@
-@deneme
+
 Feature: US 1113 Automation Negatif Giris Testi
 
   Scenario Outline: Kullanici negatif bilgiler gonderdiginde giris yapilamaz
