@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         },
         features ="src/test/resources/features",
         glue="stepdefinitions",
-        tags= "@kiwi",
+        tags= "@deneme",
         dryRun =false
 )
 public class TestRunner1 {

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.153">
+    <testcase classname="Kiwi Find Cheapest Ticket" name="Wherever you want to go, try to find the cheapest ticket from the website." time="15.996">
+        <system-out>
+            <![CDATA[Given The user goes the kiwi homepage.......................................passed
+Then The user choose From "City,Country,Region" city in the box.............passed
+Then The user choose To "City,Country,Region2" city in the box..............passed
+Then The user choose one way flight from menu...............................passed
+Then The user sorts the prices from cheapest to most expensive..............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
