@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.73">
-    <testcase classname="US0101 Quality Demy" name="Kullanici basarili bir sekilde giris yapabilmeli" time="38.569">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="61.778">
+    <testcase classname="US22" name="TC_2201 Kullanici My account sayfasinin gorulur oldugunu dogrular" time="31.371">
         <system-out>
-            <![CDATA[Given Kullanici quality demy sayfasina gider................................passed
-When Email ve password bilgilerini girerek giris yapar......................passed
-Then Basarili bir sekilde giris yaptigini test eder.........................passed
-And Sayfayi kapatir.........................................................passed
+            <![CDATA[Given Open browser go to url "myUrl"........................................passed
+Then User clicks on the login link, enters "maillife" and "passwordlife" and logs in..passed
+Then User clicks on dashboard link..........................................passed
+Then User clicks My Account section on dashbord page........................passed
+Then User verifies that the page is accessible..............................passed
+And Closes the page.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US22" name="TC_2203 Kullanici sunu yapmali" time="30.24">
+        <system-out>
+            <![CDATA[Given Open browser go to url "myUrl"........................................passed
+Then User clicks on the login link, enters "maillife" and "passwordlife" and logs in..passed
+Then User clicks on dashboard link..........................................passed
+Then User clicks My Account section on dashbord page........................passed
+Then Verifies that the Basic Info tab contains First Name, Last Name,Email Address, Phone Number, Date of Birth, Description,Text Box.passed
+Then Closes the page........................................................passed
 ]]>
         </system-out>
     </testcase>
