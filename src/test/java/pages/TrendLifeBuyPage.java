@@ -33,4 +33,10 @@ public class TrendLifeBuyPage {
 
      @FindBy(xpath = "//input[@name='first_name']")
      public WebElement firstnameBoxMyAccount;
+
+     @FindBy(xpath = "(//a[@class='position-relative d-flex align-items-center'])[1]")
+    public WebElement purchaseHistoryLink;
+
+     @FindBy(xpath = "//span[text()='These credentials do not match our records.']")
+    public WebElement systemMessage;
 }

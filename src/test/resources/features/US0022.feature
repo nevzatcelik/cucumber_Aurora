@@ -1,4 +1,4 @@
-@life
+
 Feature: US22
 
     Scenario: TC_2201 Kullanici My account sayfasinin gorulur oldugunu dogrular
@@ -19,4 +19,7 @@ Feature: US22
         Then User clicks My Account section on dashbord page
         Then Verifies that the Basic Info tab contains First Name, Last Name,Email Address, Phone Number, Date of Birth, Description,Text Box
         Then Closes the page
+
+          Scenario:
+            Then  User clicks on the login link, enters "mailnevzat" and "passwordnevzat" and logs in.
 

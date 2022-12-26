@@ -1,4 +1,4 @@
-package runners;
+package Runners;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -11,10 +11,10 @@ import org.junit.runner.RunWith;
         },
         features ="src/test/resources/features",
         glue="stepdefinitions",
-        tags= "@life",
+        tags= "@levent",
         dryRun =false
 )
-public class TestRunner1 {
+public class Run {
     /*
     Bir framework'de bir tek Runner class'i yeterli olabilir
     Runner class'inda class body'sinde hic bir sey olmaz

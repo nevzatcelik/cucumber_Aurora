@@ -1,4 +1,4 @@
-@US03
+
 Feature: US 0003 Test For Social Media Icons
 
   Scenario: TC 0301 Facebook, Twitter, LinkedIn icons should be visible

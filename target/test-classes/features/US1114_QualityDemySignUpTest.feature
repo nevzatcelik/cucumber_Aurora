@@ -1,5 +1,6 @@
+@life
 Feature: US1114 Signup Testi
-@nevzat
+
   Scenario Outline: Kullanici yanlis formatta bilgiler girdiginde uyelik hesabi olusturamamali
 
     Given Kullanici "myUrl" sayfasina gider
